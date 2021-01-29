@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="TaxiForm">
+    <output-path>$PROJECT_DIR$/out/artifacts/TaxiForm</output-path>
+    <root id="archive" name="TaxiForm.jar">
+      <element id="module-output" name="TaxiForm" />
+      <element id="library" level="project" name="jcalendar-1.4" />
+      <element id="library" level="project" name="TaxiForm_Logic" />
+    </root>
+  </artifact>
+</component>

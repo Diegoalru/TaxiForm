@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="TaxiForm_Logic">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../TaxiForm_Logic/out/artifacts/TaxiForm_Logic/TaxiForm_Logic.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
