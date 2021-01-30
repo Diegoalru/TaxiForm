@@ -20,18 +20,13 @@ public class TaxiForm {
     }
 
     private static void start() {
-        System.out.println("Stating Program...");
+        System.out.println("Starting Program...");
         if (FramesManager.getOpenFrames() == 0){
             FramesManager.addNewFrame();
-
-            SwingUtilities.invokeLater(new Runnable() {
-                @Override
-                public void run() {
-                    JFrame homeFrame = new Home();
-                    homeFrame.setVisible(true);
-                }
+            SwingUtilities.invokeLater(() -> {
+                JFrame homeFrame = new Home();
+                homeFrame.setVisible(true);
             });
-
         } else {
             JOptionPane.showMessageDialog(null, "¡Error Critico! El programa ya esta en ejecución. Cierre todas las ventanas abiertas y vuelva a ejecutar.");
         }
